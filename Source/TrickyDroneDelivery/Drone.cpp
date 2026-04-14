@@ -86,7 +86,6 @@ void ADrone::ResetDesiredVelocity(const FInputActionValue& Value)
 {
 	if (!Controller) return;
 	//Reset desired movement velocity when the input disaapears
-	UE_LOG(LogTemp, Warning, TEXT("ResetCalled"));
 	DesiredVelocity = { 0, 0, 0 };
 }
 
